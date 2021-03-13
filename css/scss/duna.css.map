@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAA;EACF,MAAM,EAAE,IAAI;CACb;;ACFD,AACE,cADY,CACZ,YAAY,CAAA;EACV,SAAS,EAAE,MAAM;CAClB;;AAHH,AAIE,cAJY,CAIZ,GAAG,CAAA;EACD,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "duna.scss",
+        "main.scss",
+        "slider.scss"
+    ],
+    "names": [],
+    "file": "duna.css"
+}
