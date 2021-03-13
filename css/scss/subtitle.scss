@@ -1,0 +1,22 @@
+.subtitle {
+  &__subject {
+    display: inline-block;
+    font-weight: bold;
+    font-size:1.625em;
+  }
+  &__morebtn {
+    font-size:1em;
+    color: #757575;
+  }
+}
+
+@media all and (max-width:426px){
+  .subtitle{
+    &__subject {
+      font-size:1.0625em;
+    }
+    &__morebtn{
+     font-size:0.6875em;
+    }
+  }
+}

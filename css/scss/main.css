@@ -1,4 +1,5 @@
-body {
-  height: 100%;
+.content-wrap {
+  max-width: 1304px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
