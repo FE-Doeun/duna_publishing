@@ -1,8 +1,13 @@
 .banner-slider{
   margin: 0 auto;
+  display: inline-block;
   max-width: 1024px;
-  img{
-    width: 100%;
-    max-width: 100%;
+  &__imagewrap{
+    display: inline-block;
+    border: blue;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
   }
 }

@@ -1,9 +1,15 @@
 .banner-slider {
   margin: 0 auto;
+  display: inline-block;
   max-width: 1024px;
 }
 
-.banner-slider img {
+.banner-slider__imagewrap {
+  display: inline-block;
+  border: blue;
+}
+
+.banner-slider__imagewrap img {
   width: 100%;
   max-width: 100%;
 }

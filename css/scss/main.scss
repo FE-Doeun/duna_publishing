@@ -1,9 +1,129 @@
-.content-wrap{
+.content-wrap {
   max-width: 1304px;
-  margin: 0 auto;
-  .commm{
-    &__list-1{
-           
+  margin   : 50px auto 0;
+}
+
+// 커뮤니티 리스트 
+.comm {
+  margin-bottom: 50px;
+
+  &__list-1 {
+    display  : table-cell;
+    max-width: 48%;
+
+    ul {
+      padding: 0 12px;
+      a {
+        display: block;
+        padding: 0 2rem;
+      }
     }
+
+    li {
+      display      : inline-block;
+      width        : 100%;
+      white-space  : nowrap;
+      border-radius: 12px;
+      box-sizing   : border-box;
+      border : 1px solid #fff;
+      &:hover {
+        border: 1px solid #000;
+      }
+      &:not(:first-child) {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &-post {
+    font-size: 1.6em;
+
+    &__label {
+      float      : left;
+      width      : 38px;
+      font-weight: bold;
+      color      : #212121;
+      line-height: 3.375em;
+    }
+
+    &__title {
+      float      : left;
+      color      : #666;
+      line-height: 3.375em;
+      font-weight: bold;
+    }
+
+    &__writter {
+      float      : right;
+      color      : #898989;
+      line-height: 3.375em;
+      font-weight: bold;
+    }
+
+    &__date {
+      margin-left: 6.044%;
+      float      : right;
+      color      : #898989;
+      line-height: 3.375em;
+      font-weight: bold;
+    }
+  }
+}
+//커뮤니티 끝
+@media all and (max-width:1023px) {
+  .comm {
+    padding: 0 25px;
+
+    &__list-1 {
+      display      : block;
+      min-width    : 100%;
+      margin-bottom: 50px;
+    }
+
+    &__date {
+      margin-left: 18px;
+    }
+  }
+}
+
+@media all and (max-width:425px) {
+  .comm {
+    padding: 0 15px;
+
+    &__list-1 {
+      font-size    : 0.75em;
+      display      : block;
+      min-width    : 100%;
+      margin-bottom: 50px;
+    }
+
+    &__date {
+      margin-left: 6px;
+    }
+  }
+}
+
+.main-video{
+  &__contents{
+    li{
+      display: inline-block;
+      max-width: 302px;
+      border: 1px solid #eaeaea;
+      margin: 0 12px;
+      border-radius: 12px;
+      div{
+        width: 100%;
+        img{
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.main-strategy{
+  &__contents{
+
   }
 }

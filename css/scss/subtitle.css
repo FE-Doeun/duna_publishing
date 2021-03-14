@@ -1,3 +1,8 @@
+.subtitle {
+  margin-bottom: 15px;
+  padding: 0px 12px;
+}
+
 .subtitle__subject {
   display: inline-block;
   font-weight: bold;
@@ -5,11 +10,12 @@
 }
 
 .subtitle__morebtn {
+  float: right;
   font-size: 1em;
   color: #757575;
 }
 
-@media all and (max-width: 426px) {
+@media all and (max-width: 425px) {
   .subtitle__subject {
     font-size: 1.0625em;
   }
